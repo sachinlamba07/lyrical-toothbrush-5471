@@ -1,0 +1,43 @@
+.container{
+    width: 90%;
+    margin: auto;
+}
+.navbar{
+    
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    font-size: 30px;
+}
+input{
+    width: 300px;
+    margin-top: 1%;
+    font-size: 30px;
+    border-radius: 10px;
+    height: 60%;
+}
+.lang{
+    margin-top: 1.5%;
+    height: 40px;
+}
+.ham{
+    height: 10px;
+}
+.logo{
+    width: 200px;
+}
+.navbar a{
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+
+/*Body*/
+
+#home{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+#home img{
+    width: 300px;
+}
