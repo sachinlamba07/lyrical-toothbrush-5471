@@ -1,6 +1,14 @@
+*{
+    background-color: black;
+    color: aliceblue;
+    font-family: sans-serif;
+}
 .container{
     width: 90%;
     margin: auto;
+}
+.top10{
+    margin-top: 2%;
 }
 .navbar{
     
@@ -21,7 +29,9 @@ input{
     height: 40px;
 }
 .ham{
-    height: 10px;
+    
+    margin-top: 1.5%;
+    height: 40px;
 }
 .logo{
     width: 200px;
@@ -35,9 +45,69 @@ input{
 /*Body*/
 
 #home{
+    margin: 2%;
+    color: aliceblue;
     display: grid;
-    grid-template-columns: repeat(8,1fr);
+    
+    transition-timing-function: ease;
+    grid-template-columns: repeat(10,1fr);
+    gap: 1%;
+}
+
+#home>div{
+    transition: transform .3s;
+    transition-timing-function: ease;  
+    
+    
+}
+#home>div>h4{
+    text-align: center;
+}
+
+
+#home>div:hover{
+        border: 5px solid white;
+        border-radius: 15px;
+        transform: scale(1.2);
+    
 }
 #home img{
-    width: 300px;
+  
+    border-radius: 10px;
 }
+.slider{
+    height: 250px;
+}
+
+
+/*   Web Series*/
+
+#webseries{
+    margin: 2%;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 1%;
+}
+#webseries img{
+    width: 250px;
+    border-radius: 10px;
+}
+
+
+/*TV Show*/
+
+
+#tvshowHome{
+    margin: 2%;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 1%;
+}
+#tvshowHome img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+
