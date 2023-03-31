@@ -6,10 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flickster</title>
 </head>
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="/css/index.css">
 <body>
     <div class="container">
@@ -27,16 +25,19 @@
             <img class="ham" src="https://www.flaticon.com/free-icons/more" alt="">
             
         </div>
+
+        <!-- top 10 section -->
+
         <div class="top10 ">
             <h2>Top 10 Movies in India</h2>
-        <div id="home">
+        <div class="slider" id="home">
 
         </div>
         </div>
 
         <div class="top10_webseries">
             <h2>Top 10 Web Series in India</h2>
-            <div id="webseries" class="">
+            <div class="slider" id="webseries" class="">
 
             </div>
 
@@ -44,32 +45,87 @@
 
         <div class="tvshow">
             <h2>Latest Hindi Episodes Free</h2>
-            <div id="tvshowHome">
+            <div class="slider" id="tvshowHome">
 
             </div>
 
         </div>
 
+        <div class="popular_movies">
+          <h2>Popular Movies</h2>
+          <div class="slider" id="popular_movie" class="">
+
+          </div>
+
+      </div>
+
+      <div class="explore_genres">
+        <h2>Explore by Genre</h2>
+        <div id="explore_genre" class="">
+
+        </div>
 
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
 
-<script src="/src/index.js"></script>
-<script>
-$('.slider').slick({
+    <div class="explore_exclusive">
+      <h2>Exlusive Content</h2>
+      <div class="slider" id="exclusive" class="">
+
+      </div>
+
+  </div>
+
+  <div class="movie_marathone">
+    <h2>Movie Marathone</h2>
+    <div class="slider" id="marathone" class="">
+
+    </div>
+  </div>
+
+    <div class="explore_language">
+      <h2>Explore by Language</h2>
+      <div  id="language" class="">
+
+      </div>
+
+  </div>
+
+  <div class="south">
+    <h2>South Dubbed Movies</h2>
+    <div class="slider" id="south_dubbed" class="">
+
+    </div>
+
+</div>
+
+<div class="news">
+  <h2>Free News</h2>
+  <div  id="free_news" class="">
+
+  </div>
+
+</div>
+
+
+
+
+    </div>
+    <script src="/src/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+     $('.slider').slick({
   dots: true,
-  infinite: false,
+  infinite: true,
   speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
+  slidesToShow: 7,
+  slidesToScroll: 2,
   responsive: [
     {
       breakpoint: 1024,
       settings: {
-        slidesToShow: 4,
-        slidesToScroll: 3,
+        slidesToShow: 3,
+        slidesToScroll: 2,
         infinite: true,
         dots: true
       }
@@ -77,14 +133,14 @@ $('.slider').slick({
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 7,
+        slidesToShow: 5,
         slidesToScroll: 2
       }
     },
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 7,
+        slidesToShow: 1,
         slidesToScroll: 1
       }
     }
@@ -93,5 +149,9 @@ $('.slider').slick({
     // instead of a settings object
   ]
 });
-</script>
+    </script>
+   
+</body>
+
+
 </html>

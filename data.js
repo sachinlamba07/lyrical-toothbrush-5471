@@ -726,12 +726,12 @@ const popular_movies=[
         img_url: "https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-movie_1511761297/portrait/1920x770580834ad70b34512ba4250d277e68313.jpg",
         name: "Shaadi Mein Zaroor Aana",
         Genre: "Romance",
-    }
+    },
     {
         img_url: "https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-369273/portrait/1920x7706dbcd377e0ba4e40b8b4533066e64b791b570aed8b7047a6b8593ffac10e0ce9.jpg",
         name: "Silence...Can You Hear It?",
         Genre: "Thriller",
-    }
+    },
     {
         img_url: "https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5191648/portrait/1920x7707e8d3f1df8994004bb221eedf6992218.jpg",
         name: "Rashtra Kavach Om",
@@ -754,12 +754,8 @@ const explore_language=[
     {
         img_url: "https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258170/list/kannadaplatformlanguage1170x65823112022518dadc786404465ae31319ac3972bec.jpg",
     },
-    {
-        img_url: "https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258059/list/bangla12f9480e9e6be463fa3e61e0aea058107.jpg",
-    },
-    {
-        img_url: "https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco/resources/0-8-3z5258172/list/malayalamplatformlanguage1170x658231120224d69f51f3159440bb1ab3f8dbf0ab244.jpg",
-    }
+  
+    
     
 
     

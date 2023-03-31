@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 .container{
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 .top10{
@@ -47,37 +47,24 @@ input{
 #home{
     margin: 2%;
     color: aliceblue;
-    display: grid;
-    
-    transition-timing-function: ease;
-    grid-template-columns: repeat(10,1fr);
-    gap: 1%;
-}
-
-#home>div{
-    transition: transform .3s;
-    transition-timing-function: ease;  
-    
-    
-}
-#home>div>h4{
-    text-align: center;
-}
-
-
-#home>div:hover{
-        border: 5px solid white;
-        border-radius: 15px;
-        transform: scale(1.2);
-    
+    display: flex;
+    gap: 2%;
 }
 #home img{
-  
+    width: 250px;
     border-radius: 10px;
+    transition: transform .3s;
+    transition-timing-function: ease; 
 }
-.slider{
-    height: 250px;
+#home img:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+    border: 3px solid white;
+
 }
+
+
 
 
 /*   Web Series*/
@@ -85,14 +72,23 @@ input{
 #webseries{
     margin: 2%;
     color: aliceblue;
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
+    display: flex;
     gap: 1%;
 }
 #webseries img{
     width: 250px;
     border-radius: 10px;
+    transition: transform .3s;
+    transition-timing-function: ease; 
 }
+#webseries img:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+    border: 3px solid white;
+
+}
+
 
 
 /*TV Show*/
@@ -101,13 +97,179 @@ input{
 #tvshowHome{
     margin: 2%;
     color: aliceblue;
+    display: flex;
+    gap: 1%;
+}
+#tvshowHome img{
+    width: 250px;
+    border-radius: 10px;
+    transition: transform .3s;
+    transition-timing-function: ease; 
+}
+#tvshowHome img:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+    border: 3px solid white;
+
+}
+
+/*Popular Movies*/
+
+
+#popular_movie{
+    margin: 2%;
+    color: aliceblue;
+    display: flex;
+    gap: 1%;
+}
+#popular_movie img{
+    width: 250px;
+    border-radius: 10px;
+    transition: transform .3s;
+    transition-timing-function: ease; 
+}
+#popular_movie img:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+    border: 3px solid white;
+
+}
+
+/*Explore in your Language*/
+#explore_genre{
+    margin: 2%;
+    color: aliceblue;
+    display: flex;
+    gap: 1%;
+}
+#explore_genre img{
+    width: 350px;
+    border-radius: 10px;
+}
+#explore_genre>div{
+    transition: transform .3s;
+    transition-timing-function: ease;  
+  
+}
+#explore_genre>div:hover{
+        border: 5px solid white;
+        border-radius: 15px;
+        transform: scale(1.2);
+    
+}
+
+/*Exclusive Movies*/
+
+#exclusive{
+    margin: 2%;
+    color: aliceblue;
+    display: flex;
+    gap: 1%;
+}
+#exclusive img{
+    width: 250px;
+    border-radius: 10px;
+    transition: transform .3s;
+    transition-timing-function: ease; 
+}
+#exclusive img:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+    border: 3px solid white;
+
+}
+/*Movie Marathone*/
+#marathone{
+    margin: 2%;
+    color: aliceblue;
+    display: flex;
+    gap: 1%;
+}
+#marathone img{
+    width: 250px;
+    border-radius: 10px;
+    transition: transform .3s;
+    transition-timing-function: ease; 
+}
+#marathone img:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+    border: 3px solid white;
+
+}
+
+/*Explore language*/
+
+#language{
+    margin: 2%;
+    color: aliceblue;
     display: grid;
     grid-template-columns: repeat(10,1fr);
     gap: 1%;
 }
-#tvshowHome img{
-    width: 300px;
+#language img{
+    width: 350px;
     border-radius: 10px;
 }
+#language>div{
+    transition: transform .3s;
+    transition-timing-function: ease;  
+  
+}
+#language>div:hover{
+        border: 5px solid white;
+        border-radius: 15px;
+        transform: scale(1.2);
+    
+}
 
+/*South movies*/
+
+#south_dubbed{
+    margin: 2%;
+    color: aliceblue;
+    display: flex;
+    gap: 1%;
+}
+#south_dubbed img{
+    width: 250px;
+    border-radius: 10px;
+    transition: transform .3s;
+    transition-timing-function: ease; 
+}
+#south_dubbed img:hover{
+    
+    border-radius: 15px;
+    transform: scale(1.2);
+    border: 3px solid white;
+
+}
+/*Free News*/
+
+#free_news{
+    margin: 2%;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    gap: 1%;
+}
+#free_news img{
+    width: 550px;
+    border-radius: 10px;
+}
+#free_news>div{
+    transition: transform .3s;
+    transition-timing-function: ease;  
+  
+}
+#free_news>div:hover{
+        border: 5px solid white;
+        border-radius: 15px;
+        transform: scale(1.2);
+    
+}
 
