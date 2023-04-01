@@ -1,111 +1,116 @@
 const top10_movies=[
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5326731/portrait/1920x770e1ed4c7a72a141b0bcbacde5ba689f78.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-3510/portrait/1920x77072c6851f4d2749faae8b4bd39e167cdc.jpg",
         name:"Kanjus Makhichoos",
         Genre:"Comedy"
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5323051/portrait/1920x770c6209a68ff484c27a1d3ae1a4164c66b.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-366/portrait/1920x770e0beb888151549ae9a2e44a81bdca399.jpg",
         name:"Writer",
         Genre:"Comedy"
     },
    
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5277822/portrait/1920x770c6300138e66e4caeb7bf3a4f9f02067b.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-3392/portrait/1920x7707d991637847b42aea29902375556163f.jpg",
         name:"Uunchai",
         Genre:"Drama"
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5281750/portrait/1920x77092472069ec2140cb8045f4851d4c9c3c.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-127/portrait/1920x77014246e9f1b864bd8996c9a1cb54f6ad3.jpg",
         name:"Chhatriwali",
         Genre:"Drama"
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5323147/portrait/1920x770d79df09a751242cda5aeaec20e6a1291ee6dc950c1cd49e6845c6e17cb33a64b.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5219605/portrait/1920x7700843aa4e01934bf8b4eb4fa15201af68.jpg",
         name:"Am I Next",
         Genre:"Crime"
     },
 
-
-    
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/portrait/1920x77023958a1676e340ddb2cd592012f3c263.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5194280/portrait/1920x770cbd1a5e703ce451e8ed35af78aec9da0.jpg",
         name:"Lost",
         Genre:"Thriller"
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5327133/portrait/1920x77019df0ca6c2c6485b86287f7ec4a9f754.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5266104/portrait/1920x7701bea42603297400490f2d323496e1443.jpg",
         name:"United Kacche",
         Genre:"Comedy"
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-124193/portrait/satelliteshankarmovie19a36ddc51a78644c1b5119d52fa681f19.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5318988/portrait/1920x770e773776317bb4e3bbad37b7b49344aa0.jpg",
         name:"Satellite Shankar",
         Genre:"Action"
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5206274/portrait/1920x770485283887ce04c66a91f3e5dc0e20747.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z560749/portrait/1920x77050a0afd8b2b341bd91d2ad4c0d7231b0.jpg",
         name:"Khuda Haafiz Chapter 2: Agni Pariksha",
         Genre:"Action"
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-348372/portrait/1920x7708b719aadb538429abc4dde7dea45032d.jpg",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z525220/portrait/1920x770787ca3eff34e46dc8591e6af985e6722.jpg",
         name:"Aravinda Sametha",
         Genre:"Action"
     },
 ]
 const top10_webseries=[
+
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-1z588913/portrait/1920x77062e38594ff8e4f5092d8f1ddd6e233cd.jpg",
-        moviename:"Topnic",
-        cat:"Drama",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z560749/portrait/1920x77050a0afd8b2b341bd91d2ad4c0d7231b0.jpg",
+        name:"Khuda Haafiz Chapter 2: Agni Pariksha",
+        Genre:"Action",
     },
+    {
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z525220/portrait/1920x770787ca3eff34e46dc8591e6af985e6722.jpg",
+        name:"Aravinda Sametha",
+        Genre:"Action"
+    },    
     
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-119468/portrait/00119468incove144662735.jpg",
-        moviename:"Sudaksinar Sari",
-        cat:"Drama",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-1z571422/portrait/1920x770845d575b57cb43599009f12008dba3a2.jpg",
-        moviename:"Bini Sutoy",
-        cat:"Drana",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-48836/portrait/0048836incover.jpg",
-        moviename:"Onek Diner Por",
-        cat:"Drama",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-1z541512/portrait/1920x770bbe9c8c511064804967dd0c4a427f0f0.jpg",
-        moviename:"Comedy",
-        cat:"Horor",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-bonolata/portrait/bonolota20151920x770.jpg",
-        moviename:"Bonolota",
-        cat:"Horor",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-42014/portrait/1920x770dac3a32c1fea44f38fa4f7a925828961c8a73dee1a834a7cb8cebd214512b104.jpg",
-        moviename:"Bijaya",
-        cat:"Drama",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-74622/portrait/satyamevajayate298776966.jpg",
-        moviename:"Satyameva Jayate",
-        cat:"Action",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-26040/portrait/jayojayodebi1920x770.jpg",
-        moviename:"Joy Joy Debi",
-        cat:"Comedy",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-ebhabeophireashajay/portrait/1920x7701429554124.jpg",
-        moviename:"Avabeo Fire Asa Jai",
-        cat:"Comedy",
-    },
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-2275/portrait/1920x77076841544391947569a9329973c4b4410.jpg",
+    name:"Writer",
+    Genre:"Comedy"
+},
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-447/portrait/1920x770086b8e66e4e041e998bb1c0656bfc9f5.jpg",
+    name:"Chhatriwali",
+    Genre:"Drama"
+},
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5309768/portrait/1920x7707844091a15ad43e8a474a7477c78834c.jpg",
+    name:"Uunchai",
+    Genre:"Drama"
+},
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-124/portrait/1920x770224b02ffbab04efdbeda2b6d4158d8fa.jpg",
+    name:"Lost",
+    Genre:"Thriller"
+},
+
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5219605/portrait/1920x7700843aa4e01934bf8b4eb4fa15201af68.jpg",
+    name:"Am I Next",
+    Genre:"Crime"
+},
+
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-3510/portrait/1920x77072c6851f4d2749faae8b4bd39e167cdc.jpg",
+    name:"Kanjus Makhichoos",
+    Genre:"Comedy"
+},
+
+
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5266104/portrait/1920x7701bea42603297400490f2d323496e1443.jpg",
+    name:"United Kacche",
+    Genre:"Comedy"
+},
+{
+    img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-6-4z5318988/portrait/1920x770e773776317bb4e3bbad37b7b49344aa0.jpg",
+    name:"Satellite Shankar",
+    Genre:"Action"
+},
+
+
 ]
 const latest_tvshow=[
     {
@@ -410,20 +415,20 @@ const free_news=[
 
 const slideShowdata=[
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/cover/1920x77023958a1676e340ddb2cd592012f3c263.jpg",
-        name:"Lost",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-127/cover/1920x77014246e9f1b864bd8996c9a1cb54f6ad3.jpg",
+        name:"KumKum Bhagya",
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z5327133/cover/1920x770338bcf4774bd448eb33f4342be4ab1a4.jpg",
-        name:"United Kacche",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-3392/cover/1920x7707d991637847b42aea29902375556163f.jpg",
+        name:"Bhagya Lakshmi",
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z5311140/cover/1920x7702288c19af62b45bca7b65d8f277922cd.jpg",
-        name:"Taj : Divided by Blood",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-3510/cover/1920x77072c6851f4d2749faae8b4bd39e167cdc.jpg",
+        name:"Meet",
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5326731/cover/1920x770e1ed4c7a72a141b0bcbacde5ba689f7808aabfb841c8472f86dcf35ce0857135.jpg",
-        name:"Kanjoos Makhichoos",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z553645/cover/1920x770176f42e22d424862b2c0ecb47799c3ee.jpg",
+        name:"Nayan...Jo Vekhe Unvekha",
     },
 ]
 
@@ -2077,6 +2082,7 @@ function Display(data)
     image.setAttribute("src" , data[i].img_url);
     name.innerText = data[i].name;
     card.setAttribute("class" , "searchCard")
+    
     card.append(image,name);
     bodyContent.append(card);
     

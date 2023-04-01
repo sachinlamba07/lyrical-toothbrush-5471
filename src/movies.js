@@ -107,53 +107,7 @@ const top10_webseries=[
         cat:"Comedy",
     },
 ]
-const latest_tvshow=[
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599316/list/00000004d9765b80dbe642d5a121ca361feb2143.jpg",
-        text:"Happu Ki Ultan Paltan",
-        smallText:"E 702",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599236/list/00000013ae1d187ce59f4a97ae8d1bc1604c8bb5.jpg",
-        text:"Baal Shiv",
-        smallText:"E 66",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599143/list/00000009763098f334fc472dbd1628fc69413258.jpg",
-        text:"Meet ",
-        smallText:"E 172",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599031/list/000000060a9ad90c83774b53b9ba187b6ed20c68.jpg",
-        text:"Kashibai Bajirao Ballal ",
-        smallText:"E 188",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599019/list/00000007ffc0534639944b7b94603e85c2d99667.jpg",
-        text:"Rishton ka Manjha",
-        smallText:"E 157",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599043/list/00000012af028e9f0728401d81840769ec98b37b.jpg",
-        text:"Iss Mod Se Jaate Hain",
-        smallText:"E 68",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599171/list/00000008690a1dd3186b48609553cf0edf657a38.jpg",
-        text:"Aggar Tum Na Hote ",
-        smallText:"E 76",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599111/list/00000009621ed377f8c048e88ae6d631b83c2ef4.jpg",
-        text:"Kumkum Bhagya ",
-        smallText:"E 2069",
-    },
-    {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_407,h_229,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-1-6z599052/list/00000005fe666d60942846da99923e1c0b5b018a.jpg",
-        text:"Kundali Bhagya",
-        smallText:"E 1182",
-    },
-]
+
 const popular_movies=[
     {
         img_url: "https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5228525/portrait/1920x77069dfde7f955d4ef69e73c3b682aa636baf7e693843c94bca830df12a92375a8b.jpg",
@@ -385,34 +339,18 @@ const south_dubbed=[
     
 ]
 
-const free_news=[
-    {
-        img_url: "https://akamaividz2.zee5.com/image/upload/w_502,h_282,c_scale,f_webp,q_auto:eco/resources/0-9-aajtak/list/aajtak11704c4936fac7be4f94bfd475584f6671d6.jpg",
-        name: "Aaj Tak",
-    },
-    {
-        img_url: "https://akamaividz2.zee5.com/image/upload/w_502,h_282,c_scale,f_webp,q_auto:eco/resources/0-9-zeenews/list/zeenews1170ac3284dba03741678189cc933054cae9.jpg",
-        name: "Zee News",
-    },
-    {
-        img_url: "https://akamaividz2.zee5.com/image/upload/w_502,h_282,c_scale,f_webp,q_auto:eco/resources/0-9-zeenews/list/zeenews1170ac3284dba03741678189cc933054cae9.jpg",
-        name: "India Today",
-    },
-    {
-        img_url: "https://akamaividz2.zee5.com/image/upload/w_502,h_282,c_scale,f_webp,q_auto:eco/resources/0-9-404/list/abpsanjha11704c57e839f9494266aa55ba8c40f0071c.jpg",
-        name: "ABP News",
-    },
-    {
-        img_url: "https://akamaividz2.zee5.com/image/upload/w_502,h_282,c_scale,f_webp,q_auto:eco/resources/0-9-404/list/abpsanjha11704c57e839f9494266aa55ba8c40f0071c.jpg",
-        name: "Zee Business",
-    },
-]
+
 
 const slideShowdata=[
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/cover/1920x77023958a1676e340ddb2cd592012f3c263.jpg",
-        name:"Lost",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5281750/cover/1920x77092472069ec2140cb8045f4851d4c9c3c.jpg",
+        name:"Chhatriwali",
     },
+    {
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5326731/cover/1920x770e1ed4c7a72a141b0bcbacde5ba689f7808aabfb841c8472f86dcf35ce0857135.jpg",
+        name:"Kanjoos Makhichoos",
+    },
+   
     {
         img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-6-4z5327133/cover/1920x770338bcf4774bd448eb33f4342be4ab1a4.jpg",
         name:"United Kacche",
@@ -422,9 +360,11 @@ const slideShowdata=[
         name:"Taj : Divided by Blood",
     },
     {
-        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5326731/cover/1920x770e1ed4c7a72a141b0bcbacde5ba689f7808aabfb841c8472f86dcf35ce0857135.jpg",
-        name:"Kanjoos Makhichoos",
+        img_url:"https://akamaividz2.zee5.com/image/upload/w_1420,h_569,c_scale,f_webp,q_auto:eco/resources/0-0-1z5299828/cover/1920x77023958a1676e340ddb2cd592012f3c263.jpg",
+        name:"Lost",
     },
+    
+   
 ]
 
 const slide2data=[
@@ -2175,31 +2115,7 @@ function Display_top10_webseries(data)
     }
 }
 
-let body2=document.querySelector("#tvshowHome");
-Display_latest_tvshow(latest_tvshow);
-function Display_latest_tvshow(data)
-{
-    
-    for(let i=0;i<data.length;i++)
-    {
-        let card=document.createElement("div");
-     let image=document.createElement("img");
-     let name=document.createElement("h3");
-     let number=document.createElement("h4");
-     
 
-    image.setAttribute("src" , data[i].img_url);
-    name.innerText=data[i].text;
-    number.innerText=data[i].smallText;
-    
-
-
-   
-
-    card.append(image,name,number);
-    body2.append(card);
-    }
-}
 
 
 //popular movies
@@ -2347,26 +2263,6 @@ function Display_south_dubbed(data)
     }
 }
 
-let body9=document.querySelector("#free_news");
-Display_free_news(free_news);
-function Display_free_news(data)
-{
-    
-    for(let i=0;i<data.length;i++)
-    {
-        let card=document.createElement("div");
-     let image=document.createElement("img");
-    
-     
 
-    image.setAttribute("src" , data[i].img_url);
-    
-   
-
-    card.append(image);
-    body9.append(card);
-
-    }
-}
 
 
