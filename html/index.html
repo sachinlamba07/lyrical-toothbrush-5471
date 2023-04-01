@@ -13,17 +13,26 @@
     <div class="container">
 
         <div class="navbar">
-            <img class="logo" src="/images/logoflickster.png" alt="Logo">
+            <img class="logo" src="/images/newlogo.png" alt="Logo">
             <a href="">Home</a>
             <a href="">TV Shows</a>
             <a href="">Movies</a>
             <a href="">Sports</a>
             <a href="">Web Series</a>
             
-            <input placeholder="Search" id="search" type="text">
+            <input type="text" placeholder="🔍Search" id="search">
             <img class="lang" src="/images/languages.png" alt="Language Change">
             <img class="ham" src="https://www.flaticon.com/free-icons/more" alt="">
             
+        </div>
+        <div class="bodyContent">
+          
+        <div class="center" id="slide1">
+
+        </div>
+
+        <div class="center1" id="slide2">
+
         </div>
 
         <!-- top 10 section -->
@@ -106,6 +115,64 @@
 
 </div>
 
+        </div>
+
+<div id="footer">
+    <table>
+      <tr>
+        <th>Popular TV</th>
+        <th>Popular Movies</th>
+        <th>Popular TV News</th>
+        <th>Popular WebSeries</th>
+        <th>Bollywood Celebrity</th>
+        <th>Games & News</th>
+      </tr>
+      <tr>
+        <td>KumKum Bhagaya</td>
+        <td>RRR</td>
+        <td>Aaj Tak</td>
+        <td>Taj</td>
+        <td>Sunny Leone</td>
+        <td>Play</td>
+      </tr>
+      <tr>
+        <td>Kundli Bhagya</td>
+        <td>Uncchai</td>
+        <td>Zee News</td>
+        <td>Sunflower</td>
+        <td>Disha Patani</td>
+        <td>Stories</td>
+      </tr>
+      <tr>
+        <td>Bhagya Lakshmi</td>
+        <td>Uri:The Surgical Strike</td>
+        <td>ZeeTV HD</td>
+        <td>Tripling</td>
+        <td>Deepika Padukone</td>
+        <td>Articles</td>
+      </tr>
+      <tr>
+        <td>Meet</td>
+        <td>Dial 100</td>
+        <td>Tv HD</td>
+        <td>Picters</td>
+        <td>Salman Khan</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>ABP</td>
+        <td>Farzi</td>
+        <td>Nora</td>
+        <td></td>
+      </tr>
+    </table>
+<span>Best viewed on Google Chrome 80+, Microsoft Edge 81+, Mozilla Firefox 75+, Safari 5.1.5+
+  Copyright © 2023 Zee Entertainment Enterprises Ltd. All rights reserved.</span>
+
+</div>
+
 
 
 
@@ -148,6 +215,21 @@
     // settings: "unslick"
     // instead of a settings object
   ]
+});
+
+$('.center').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 3000,
+});
+
+$('.center1').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  arrows:false,
+  autoplaySpeed: 2000,
 });
     </script>
    
