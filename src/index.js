@@ -1,3 +1,7 @@
+//youtube api key="AIzaSyDwZpOAP1FoesrAa_YP7mfE7cYtO_5N-Wo";
+
+
+
 const top10_movies=[
     {
         img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco/resources/0-0-1z5326731/portrait/1920x770e1ed4c7a72a141b0bcbacde5ba689f78.jpg",
@@ -1322,6 +1326,14 @@ const allData=[
         Genre:"Comedy",
     },
     {
+        img_url:"/images/TAMTA.png",
+        name:"Tamta"
+    },
+    {
+        img_url:"/images/TAMTAJ.png",
+        name:"Tamta"
+    },
+    {
         img_url:"https://akamaividz2.zee5.com/image/upload/w_321,h_482,c_scale,f_webp,q_auto:eco,dpr_2.0/resources/0-0-ebhabeophireashajay/portrait/1920x7701429554124.jpg",
         name:"Avabeo Fire Asa Jai",
         Genre:"Comedy",
@@ -2112,7 +2124,7 @@ function Display_slideShowdata(data){
         let name=document.createElement("h2");
         imge.setAttribute("src" , data[i].img_url);
         name.innerText = data[i].name;
-        
+
         card.append(imge ,name);
         slide.append(card)
     }
@@ -2150,7 +2162,9 @@ function Display_top10_movies(data)
      let image=document.createElement("img");
      let name=document.createElement("h4");
     image.setAttribute("src" , data[i].img_url);
-    
+    card.addEventListener("click" , function(){
+        window.location.assign("https://www.youtube.com/watch?v=DUAouyG91io");
+    })
     card.append(image);
     body.append(card);
     
@@ -2201,7 +2215,6 @@ function Display_latest_tvshow(data)
     }
 }
 
-
 //popular movies
 
 let body3=document.querySelector("#popular_movie");
@@ -2217,7 +2230,9 @@ function Display_popular_movies(data)
      
 
     image.setAttribute("src" , data[i].img_url);
-    
+    card.addEventListener("click" , function(){
+        window.location.assign("https://www.youtube.com/watch?v=ye3faphq3MU");
+    })
    
 
     card.append(image);
@@ -2369,4 +2384,8 @@ function Display_free_news(data)
     }
 }
 
+// For movie Search
 
+function searchMovieTrailer(name){
+    if(!name) return;
+}
