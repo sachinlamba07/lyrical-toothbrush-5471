@@ -34,5 +34,7 @@ Successfully integrate video playback from YouTube within the platform.
 The Flickster project will showcase your ability to create a functional and visually appealing online streaming platform prototype. By utilizing HTML, CSS, JavaScript, and Bootstrap, you will create an impressive project that demonstrates your skills in web development and user interface design while incorporating advanced search and video playback functionalities.
 
 
-
+Github repolink :-  https://github.com/sachinlamba07/lyrical-toothbrush-5471/tree/main
+Netlify link :-  https://incandescent-flan-b00156.netlify.app/webseries.html
+Linkedin:-  https://www.linkedin.com/in/sachin-lamba-301080252/
 
